@@ -3,7 +3,11 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
+<<<<<<< HEAD
 -- Waktu pembuatan: 12 Feb 2026 pada 06.46
+=======
+-- Waktu pembuatan: 11 Feb 2026 pada 05.42
+>>>>>>> 924d483a5a65bd412d4eb691bcd846a54fe2dd76
 -- Versi server: 10.4.32-MariaDB
 -- Versi PHP: 8.2.12
 
@@ -32,7 +36,11 @@ CREATE TABLE `guru_yunifa` (
   `nip` bigint(20) NOT NULL,
   `nama` varchar(100) NOT NULL,
   `password` varchar(255) NOT NULL,
+<<<<<<< HEAD
   `role` enum('wakil kepala sekolah bidang kesiswaan','wakil kepala sekolah bidang kurikulum','wakil kepala sekolah bidang sarana dan prasarana','wakil kepala sekolah bidang hubungan industri dan masyarakat','wakil kepala sekolah bidang manajemen mutu','staff','guru') NOT NULL
+=======
+  `role` enum('wakil kepala sekolah bidang kesiswaan','wakil kepala sekolah bidang kurikulum',' wakil kepala sekolah bidang sarana dan prasarana','wakil kepala sekolah bidang hubungan industri dan masyarakat','wakil kepala sekolah bidang manajemen mutu','staff','guru') NOT NULL
+>>>>>>> 924d483a5a65bd412d4eb691bcd846a54fe2dd76
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
@@ -62,6 +70,7 @@ CREATE TABLE `kegiatan_yunifa` (
   `hak_akses` enum('guru','internal','publik') NOT NULL,
   `id_guru` int(11) NOT NULL,
   `status_kunci` enum('terbuka','terkunci') DEFAULT 'terbuka',
+<<<<<<< HEAD
   `dibuat_pada` datetime DEFAULT current_timestamp(),
   `warna` varchar(7) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
@@ -74,6 +83,11 @@ INSERT INTO `kegiatan_yunifa` (`id_kegiatan`, `judul`, `deskripsi`, `tanggal_mul
 (7, 'festival', 'sjsj', '2026-02-12', '09:00:00', '2026-02-12', '16:00:00', 'tidak', 'publik', 2, 'terbuka', '2026-02-12 12:13:20', '#56bd5d'),
 (8, 'festival', 'erjwk', '2026-02-12', '12:17:00', '2026-02-12', '16:17:00', 'tidak', 'internal', 2, 'terbuka', '2026-02-12 12:13:59', '#08121b');
 
+=======
+  `dibuat_pada` datetime DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+>>>>>>> 924d483a5a65bd412d4eb691bcd846a54fe2dd76
 -- --------------------------------------------------------
 
 --
@@ -135,7 +149,11 @@ ALTER TABLE `guru_yunifa`
 -- AUTO_INCREMENT untuk tabel `kegiatan_yunifa`
 --
 ALTER TABLE `kegiatan_yunifa`
+<<<<<<< HEAD
   MODIFY `id_kegiatan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+=======
+  MODIFY `id_kegiatan` int(11) NOT NULL AUTO_INCREMENT;
+>>>>>>> 924d483a5a65bd412d4eb691bcd846a54fe2dd76
 
 --
 -- AUTO_INCREMENT untuk tabel `siswa_yunifa`
