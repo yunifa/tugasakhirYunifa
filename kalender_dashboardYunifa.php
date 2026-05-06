@@ -263,7 +263,6 @@
             <button class="sidebar-item_yunifa" onclick="changeView('timeGridWeek')"><i class="fas fa-calendar-week"></i> Minggu</button>
             <button class="sidebar-item_yunifa" onclick="changeView('timeGridDay')"><i class="fas fa-calendar-day"></i> Hari</button>
             <button class="sidebar-item_yunifa" onclick="changeView('listMonth')"><i class="fas fa-list"></i> Acara</button>
-            <div class="sidebar-divider_yunifa"></div>
             <?php if ($isAdmin_yunifa): ?>
                 <a class="sidebar-item_yunifa" href="manage/kalender_manageUserYunifa.php"><i class="fas fa-user-cog"></i> Kelola User</a>
             <?php endif; ?>
@@ -278,7 +277,6 @@
                 <a class="sidebar-item_yunifa" href="kalender_downloadYunifa.php"><i class="fas fa-file-pdf"></i> Download Kegiatan </a>
             <?php endif; ?>
             <?php if ($isSiswaOrtu_yunifa): ?>
-                <div class="sidebar-item_yunifa"><i class="fas fa-file-pdf"></i></i> Kegiatan Sekolah</div>
             <?php endif; ?>
             <div class="sidebar-divider_yunifa"></div>
             <a class="sidebar-item_yunifa" href="profil/kalender_readProfilYunifa.php"><i class="fas fa-user"></i> Lihat Profil</a>

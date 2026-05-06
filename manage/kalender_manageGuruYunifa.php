@@ -70,7 +70,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kelola Guru – Kalender SMKN 2 Cimahi</title>
+    <title>Kelola Guru – Kalender Akademik SMKN 2 Cimahi</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
@@ -142,7 +142,7 @@
 <body>
     <nav class="navbar_yunifa">
         <img src="../logo_smk2.png" alt="Logo" onerror="this.style.display='none'">
-        <div class="navbar-title_yunifa"><i class="fas fa-chalkboard-teacher" style="margin-right:8px;"></i>Kelola Guru</div>
+        <div class="navbar-title_yunifa"><i class="fas fa-chalkboard-teacher" style="margin-right:8px;"></i>Kalender Akademik SMKN 2 Cimahi</div>
         <a class="navbar-back_yunifa" href="kalender_manageUserYunifa.php">
             <i class="fas fa-arrow-left"></i> Kembali
         </a>

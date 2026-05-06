@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 29 Apr 2026 pada 10.22
+-- Waktu pembuatan: 06 Bulan Mei 2026 pada 12.32
 -- Versi server: 10.4.32-MariaDB
 -- Versi PHP: 8.2.12
 
@@ -63,7 +63,7 @@ INSERT INTO `guru_yunifa` (`id_guru_yunifa`, `id_role_yunifa`, `email_guru_yunif
 (20, 6, NULL, 197405262008012004, 'Tini Hernawati, S.Pd', '197405262008012004'),
 (21, 7, NULL, 197412162008011003, 'Andi Garnadi, S.Pd , M.Pd', '197412162008011003'),
 (22, 7, NULL, 197505132008011006, 'Agus Basuki, S.Pd', '197505132008011006'),
-(23, 1, NULL, 197507122008011009, 'Endro Tri Prasetyo, S.Pd', '197507122008011009'),
+(23, 1, 'endro@gmail.com', 197507122008011009, 'Endro Tri Prasetyo, S.Pd', '197507122008011009'),
 (24, 7, NULL, 197507312008011007, 'Setiawan, S.Pd', '197507312008011007'),
 (25, 3, NULL, 197508142008011009, 'Agus Mochamad Sopyan, S.Pd., M.Pd.', '197508142008011009'),
 (26, 6, NULL, 197601232008011002, 'Rd. Rulyan Saptadji, S.Si', '197601232008011002'),
@@ -168,7 +168,7 @@ INSERT INTO `guru_yunifa` (`id_guru_yunifa`, `id_role_yunifa`, `email_guru_yunif
 (125, 7, NULL, 198001112025211068, 'Agus Mulyadi', '198001112025211068'),
 (126, 7, NULL, 198912272025211126, 'Teguh Suprayitno', '198912272025211126'),
 (127, 7, NULL, 198205272025211060, 'Edi Kusmayadi', '198205272025211060'),
-(128, 8, 'admin@gmail.com', 123456, 'admin', 'admin123');
+(128, 8, 'admin@gmail.com', 123456, 'admin', '$2y$10$3dUL9ewZAYlfoIS1KOkRIOQuqLbzPflz8qbmYR0TnVo.sDdxEVh/y');
 
 -- --------------------------------------------------------
 
@@ -341,7 +341,8 @@ INSERT INTO `siswa_yunifa` (`id_siswa_yunifa`, `id_role_yunifa`, `nis_yunifa`, `
 (77, 9, 10251077, 'SAVIRA NURHALISSA AL ZAHRA', 'X TEKNIK MEKATRONIKA - B', NULL, '10251077', NULL, ''),
 (78, 9, 10251078, 'TOMI ALVIAN', 'X TEKNIK MEKATRONIKA - B', NULL, '10251078', NULL, ''),
 (79, 9, 10251079, 'WILDAN HIMAWAN', 'X TEKNIK MEKATRONIKA - B', NULL, '10251079', NULL, ''),
-(80, 9, 10251080, 'YHUDA DWIDARMAWAN', 'X TEKNIK MEKATRONIKA - B', NULL, '10251080', NULL, '');
+(80, 9, 10251080, 'YHUDA DWIDARMAWAN', 'X TEKNIK MEKATRONIKA - B', NULL, '10251080', NULL, ''),
+(81, 9, 10243320, 'YUNIFA RIZKY', 'XI RPL- B', 'ortu@gmail.com', '10243320', NULL, '');
 
 --
 -- Indexes for dumped tables
@@ -386,7 +387,7 @@ ALTER TABLE `siswa_yunifa`
 -- AUTO_INCREMENT untuk tabel `guru_yunifa`
 --
 ALTER TABLE `guru_yunifa`
-  MODIFY `id_guru_yunifa` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=129;
+  MODIFY `id_guru_yunifa` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=130;
 
 --
 -- AUTO_INCREMENT untuk tabel `kegiatan_yunifa`
@@ -404,7 +405,7 @@ ALTER TABLE `role_yunifa`
 -- AUTO_INCREMENT untuk tabel `siswa_yunifa`
 --
 ALTER TABLE `siswa_yunifa`
-  MODIFY `id_siswa_yunifa` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=81;
+  MODIFY `id_siswa_yunifa` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=82;
 
 --
 -- Ketidakleluasaan untuk tabel pelimpahan (Dumped Tables)

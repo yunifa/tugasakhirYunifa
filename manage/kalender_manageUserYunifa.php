@@ -11,7 +11,7 @@ if (!isset($_SESSION['role_yunifa']) || $_SESSION['role_yunifa'] != 8) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin - Kelola User | Kalender Akademik SMKN 2 Cimahi</title>
+    <title>Kalender Akademik SMKN 2 Cimahi</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
@@ -119,7 +119,7 @@ if (!isset($_SESSION['role_yunifa']) || $_SESSION['role_yunifa'] != 8) {
              onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
         <div class="logo-fallback_yunifa" style="display:none;"><i class="fas fa-school"></i></div>
     </div>
-    <div class="navbar-title_yunifa">Admin - Kelola User</div>
+    <div class="navbar-title_yunifa">Kalender Akademik SMKN 2 Cimahi</div>
         <a class="navbar-back_yunifa" href="../kalender_dashboardYunifa.php">
             <i class="fas fa-arrow-left"></i> Kembali
         </a>
